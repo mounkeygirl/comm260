@@ -1,0 +1,32 @@
+/* In the styles.css file...
+add a CSS rule for the h1 elements to be 48px.
+*/
+h1 {font-size: 48px;}
+
+/*
+create a class called "post-heading" and set the text color to hexadecimal #006633 (Bison Green, btw) and font-size to 1.8em.
+*/
+.postHeading{
+  color: #006633;
+  font-size: 1.8em;
+
+}
+
+/*
+create an id rule called "main-nav" and set the font-size to 1.3em.
+*/
+
+#main-nav{
+  font-size: 1.3em;
+
+
+}
+
+/*
+set a rule for blockquotes to be the text color #33ccff and font-size of 1.3em. */
+blockquote{
+  color: #33ccff;
+  font-size: 1.3em;
+
+
+}
