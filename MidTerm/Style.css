@@ -1,0 +1,84 @@
+body{
+  background: rgb(0,0,50);
+  color : orange;
+
+}
+
+h2{
+  font-size: 2em;
+  text-align: center;
+}
+
+
+
+blockquote{
+  font-style: italic;
+  font-size: 1.5em;
+  font-family: cursive;
+}
+
+#womens_finest{
+  text-align: center;
+  background: rgb(169, 240, 152);
+  color:black;
+  width: 70%;
+  margin : auto;
+  border: 10px solid yellow;
+  padding: 5px;
+}
+
+.romantic{
+  color: red;
+  font-weight: bold;
+
+}
+
+#whole{
+  padding: 25px;
+}
+
+
+
+#lakePalace{
+  padding: 2px;
+  width: 400px;
+  float:left;
+  margin-right: 6px;
+  margin-bottom: 6px;
+
+
+
+}
+
+#introduction{
+  border:10px dotted yellow;
+
+
+}
+
+#costumeContest{
+  border:5px solid red;
+  background: pink;
+  color:brown;
+  padding: 5px;
+
+
+}
+
+#costumeText{
+  float:left;
+
+
+}
+
+#costumePic{
+  width: 400px;
+  border: 5px solid White;
+  text-align: center;
+
+}
+
+.hover{
+  color: brown;
+  background: white;
+}
