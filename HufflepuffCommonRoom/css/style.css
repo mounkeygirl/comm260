@@ -1,0 +1,73 @@
+body{
+  font-family: fantasy;
+  background:rgb(225, 225, 70);
+}
+.sideButton{
+  border: 5px double yellow;
+  border-radius: 2em;
+  padding: 5px;
+  background: black;
+  margin: 10px;
+}
+
+a.sideButton{
+  text-decoration: none;
+  color:yellow;
+  text-align: center;
+  font-size:1.0em;
+  color: rgb(225, 225, 70);
+  width : 100px;
+  float: left;
+  background: brown;
+  border-radius: 1em;
+
+}
+
+a.sideButton:link{
+  color: rgb(225, 225, 70);
+  background: brown;
+
+}
+
+a.sideButton:hover{
+  color:red;
+  background: purple;
+}
+
+a.sideButton:visited{
+  color:black;
+  background: orange;
+}
+
+a.sideButton:active{
+  color:yellow;
+  background: black;
+}
+
+
+
+
+
+.sideBar{
+  /* text-align: center; */
+  font-size:1.5em;
+  color: rgb(225, 225, 70);
+  width : 140px;
+  float: left;
+  background: brown;
+  border-radius: 1em;
+  height: 550px;
+  /* padding: 20px; */
+}
+
+
+
+#startTitle{
+  text-align: center;
+
+}
+
+.mainContent{
+  margin: 10px;
+  margin-left: 150px;
+}
