@@ -1,7 +1,61 @@
+/* @font-face {
+  font-family: "Pacifico";
+  src: url('https://fonts.googleapis.com/css?family=Pacifico');
+} */
+
+/* @font-face {
+font-family: "Battalia";
+src: url('../font/BATTALIA.ttf');
+} */
+
+
+/* @import url('../font/BATTALIA.tff'); */
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 body{
-  font-family: fantasy;
+  font-family: "Pacifico", fantasy;
   background:rgb(225, 225, 70);
+  /* background-image: url(../HuffleStoneStamp.gif); */
+  /* background-image: url("img_tree.gif"); */
+  /* background-color: rgb(225, 225, 70); */
+  /* background-color: #cccccc; */
 }
+
+
+h1{
+  text-align: center;
+  font-family: "Battalia",fantasy;
+
+}
+
+table {
+  border: 1px solid black;
+  padding: 3px;
+}
+
+td{
+  border: 3px double black;
+
+}
+
+img{
+  max-width: 760px;
+
+}
+
+blockquote{
+  background: rgb(234, 154, 42);
+  padding:10px;
+}
+
+
+
+.thumbNail{
+  max-width: 250px;
+  max-height: 250px;
+  object-fit: contain;
+}
+
 .sideButton{
   border: 5px double yellow;
   border-radius: 2em;
@@ -63,11 +117,59 @@ a.sideButton:active{
 
 
 #startTitle{
+
   text-align: center;
 
 }
 
 .mainContent{
   margin: 10px;
-  margin-left: 150px;
+  margin-left: 145px;
+  /* float: left; */
+  width : 650px;
+}
+
+.belowMainContentImage{
+  /* padding-left: 20px;
+  padding-bottom: 20px; */
+  padding: 20px;
+  padding-top: (-20px);
+  background: rgb(255, 249, 201);
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1em double black;
+
+
+
+}
+
+.galleryImage{
+  border: 1em double black;
+  background:brown;
+  display: block;
+  margin: 0 auto;
+}
+
+.galleryText{
+  border: 1px solid black;
+  text-align: center;
+
+}
+
+.specialList{
+  /* background-image: url(image/everyoneLovesAHufflepuff_thumb.gif); */
+  font-family: 'Font Name', serif;
+
+  background: rgb(123, 125, 127);
+  color:rgb(197, 200, 204);
+  text-shadow: rgb(41, 51, 61) 5px 5px 5px;
+  border-style: outset;
+  background-image: url(../image/HuffleStoneStamp.gif);
+  background-repeat: no-repeat;
+  background-position: 90% 90%;
+
+  width : 300px;
+  padding:10px;
+  padding-top: -5px;
+
 }
