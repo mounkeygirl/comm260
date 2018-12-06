@@ -11,20 +11,20 @@ src: url('../font/BATTALIA.ttf');
 
 /* @import url('../font/BATTALIA.tff'); */
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Acme');
 
 body{
-  font-family: "Pacifico", fantasy;
+  font-family: 'Noto Serif', serif;
   background:rgb(225, 225, 70);
-  /* background-image: url(../HuffleStoneStamp.gif); */
-  /* background-image: url("img_tree.gif"); */
-  /* background-color: rgb(225, 225, 70); */
-  /* background-color: #cccccc; */
+
 }
 
 
 h1{
   text-align: center;
-  font-family: "Battalia",fantasy;
+  font-family: Acme;
 
 }
 
@@ -44,6 +44,7 @@ img{
 }
 
 blockquote{
+  font-family: "Cinzel",fantasy;
   background: rgb(234, 154, 42);
   padding:10px;
 }
@@ -70,7 +71,7 @@ a.sideButton{
   text-align: center;
   font-size:1.0em;
   color: rgb(225, 225, 70);
-  width : 100px;
+  width : 8em;
   float: left;
   background: brown;
   border-radius: 1em;
@@ -106,11 +107,12 @@ a.sideButton:active{
   /* text-align: center; */
   font-size:1.5em;
   color: rgb(225, 225, 70);
-  width : 140px;
+  width : 10em;
   float: left;
   background: brown;
   border-radius: 1em;
-  height: 550px;
+  height: 25em;
+  font-family: "Pacifico",serif;
   /* padding: 20px; */
 }
 
@@ -124,7 +126,7 @@ a.sideButton:active{
 
 .mainContent{
   margin: 10px;
-  margin-left: 145px;
+  margin-left: 16em;
   /* float: left; */
   width : 650px;
 }
@@ -158,7 +160,8 @@ a.sideButton:active{
 
 .specialList{
   /* background-image: url(image/everyoneLovesAHufflepuff_thumb.gif); */
-  font-family: 'Font Name', serif;
+  font-family: "Cinzel",fantasy;
+
 
   background: rgb(123, 125, 127);
   color:rgb(197, 200, 204);
