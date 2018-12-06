@@ -17,7 +17,8 @@ src: url('../font/BATTALIA.ttf');
 
 body{
   font-family: 'Noto Serif', serif;
-  background:rgb(225, 225, 70);
+  /* background:rgb(225, 225, 70); */
+  background-image: linear-gradient(rgb(225, 225, 70),red);
 
 }
 
@@ -48,6 +49,7 @@ blockquote{
   font-family: "Cinzel",fantasy;
   background: rgb(234, 154, 42);
   padding:10px;
+  
 }
 
 
@@ -149,6 +151,44 @@ a.sideButton:active{
 
 }
 
+#quickNav{
+/* A right hand size menu for quick movement through longer pagers */
+  font-size:1.5em;
+  color: rgb(225, 225, 70);
+
+  margin-left: 950px;
+  /* float: left; */
+  background: brown;
+  border-radius: 1em;
+  height: 25em;
+  font-family: "Pacifico",serif;
+  /* padding: 20px; */
+  position: absolute;
+  width : 10em;
+
+
+}
+a.quickNavButton{
+
+  /* color: black; */
+  border: 5px double yellow;
+  border-radius: 2em;
+  padding: 5px;
+  background: black;
+  margin: 10px;
+
+  text-decoration: none;
+  color:yellow;
+  text-align: center;
+  font-size:1.0em;
+  color: rgb(225, 225, 70);
+  width : 8em;
+  float: left;
+  background: brown;
+  border-radius: 1em;
+
+}
+
 .galleryImage{
   border: 1em double black;
   background:brown;
@@ -178,5 +218,8 @@ a.sideButton:active{
   width : 300px;
   padding:10px;
   padding-top: -5px;
+  float: right;
+  margin: 10px;
+
 
 }
