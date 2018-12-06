@@ -49,7 +49,7 @@ blockquote{
   font-family: "Cinzel",fantasy;
   background: rgb(234, 154, 42);
   padding:10px;
-  
+
 }
 
 
@@ -126,6 +126,7 @@ a.sideButton:active{
 
 #startTitle{
 
+  filter: drop-shadow(.5em 1em 2em orange);
   text-align: center;
 
 }
@@ -160,7 +161,7 @@ a.sideButton:active{
   /* float: left; */
   background: brown;
   border-radius: 1em;
-  height: 25em;
+  /* height: 25em; */
   font-family: "Pacifico",serif;
   /* padding: 20px; */
   position: absolute;
@@ -220,6 +221,11 @@ a.quickNavButton{
   padding-top: -5px;
   float: right;
   margin: 10px;
+}
+
+/* Used to lengthen contents of page so the background does not cut off  */
+.dummyBox{
+  height: 600px;
 
 
 }
