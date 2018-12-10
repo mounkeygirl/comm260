@@ -18,7 +18,16 @@ src: url('../font/BATTALIA.ttf');
 body{
   font-family: 'Noto Serif', serif;
   /* background:rgb(225, 225, 70); */
-  background-image: linear-gradient(rgb(225, 225, 70),red);
+
+
+  background-image: url(../image/BadgerBorder001.gif), linear-gradient(rgb(225, 225, 70),red);
+  background-repeat: repeat-y,no-repeat;
+  background-position: right;
+  background-size: 10% ,auto;
+  /* background-image: linear-gradient(rgb(225, 225, 70),red); */
+
+  /* background:
+  red  url(../image/BadgerBorder001.gif repeat-y);  */
 
 }
 
@@ -49,8 +58,13 @@ blockquote{
   font-family: "Cinzel",fantasy;
   background: rgb(234, 154, 42);
   padding:10px;
+  filter: sepia(.3) opacity(.8);
+  
+
 
 }
+
+
 
 
 
@@ -135,7 +149,17 @@ a.sideButton:active{
   margin: 10px;
   margin-left: 16em;
   /* float: left; */
-  width : 650px;
+  /* width : 650px; */
+  min-width: 650px;
+  margin-right: 16em;
+}
+
+.mainContent img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
 }
 
 .belowMainContentImage{
@@ -144,9 +168,13 @@ a.sideButton:active{
   padding: 20px;
   padding-top: (-20px);
   background: rgb(255, 249, 201);
+
+  border: 1em double black;
+
   margin-left: 20px;
   margin-right: 20px;
-  border: 1em double black;
+  /* margin-right: 16em; */
+
 
 
 
@@ -157,15 +185,40 @@ a.sideButton:active{
   font-size:1.5em;
   color: rgb(225, 225, 70);
 
-  margin-left: 950px;
+
   /* float: left; */
   background: brown;
   border-radius: 1em;
   /* height: 25em; */
   font-family: "Pacifico",serif;
   /* padding: 20px; */
-  position: absolute;
   width : 10em;
+
+
+  float: right;
+
+
+
+}
+
+@media screen and (max-width: 1220px){
+  #quickNav{
+    margin-left: 950px;
+    position: absolute;
+
+  }
+
+  .mainContent{
+    margin: 10px;
+    margin-left: 16em;
+    /* float: left; */
+    /* width : 650px; */
+    width: 650px;
+  }
+
+
+
+
 
 
 }
@@ -195,6 +248,7 @@ a.quickNavButton{
   background:brown;
   display: block;
   margin: 0 auto;
+  width: 500px;
 }
 
 .galleryText{
@@ -226,6 +280,19 @@ a.quickNavButton{
 /* Used to lengthen contents of page so the background does not cut off  */
 .dummyBox{
   height: 600px;
+
+
+}
+
+
+
+.blockquoteImg{
+  width: 450px;
+  border-style: solid;
+  border-color: orange;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
 
 
 }
