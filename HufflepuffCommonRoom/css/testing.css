@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Unlock');
+
+p{
+  font-family: 'Unlock', cursive;
+
+}
+
+#room{
+  position: absolute;
+  background-image: url("../image/roomWall.gif");
+  left: 140px;
+  right: 140px;
+  width: 400px;
+  height: 400px;
+
+}
+
+.roomPart{
+
+  position: absolute;
+  width: 400px;
+  height: 400px;
+
+}
+
+#floor hover{
+
+
+}

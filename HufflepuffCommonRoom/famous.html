@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Famous Hufflepuffs</title>
+
+    <link href = "css/style.css" rel=stylesheet type="text/css">
+
+
+    <style>
+    .dummyBox{
+      height: 100px;
+    }
+
+    img{
+    max-width: 525px;
+
+    }
+
+    .profile{
+      padding:10px;
+      margin:5px 0px 5px 0px;
+      border: ridge grey 0px 0px 0px 2px;
+    }
+
+    </style>
+
+
+  </head>
+  <body>
+
+    <div class = sideBar>
+      <p ><a href ="index.html" class="sideButton">Home</a></p>
+      <p ><a href ="famous.html" class="sideButton">Famous Hufflepuffs</a></p>
+      <p><a href = "gallery.html" class = "sideButton">Gallery</a></p>
+      <p><a href= "games.html" class = "sideButton">Games</a></p>
+      <p><a href ="quotes.html" class = "sideButton">Quotes and Memes</a></p>
+      <p ><a href="newToHarryPotter.html" class="sideButton">New to Harry Potter?</a></p>
+
+      </div>
+
+
+
+      <div class="mainContent">
+        <img id = startTitle src="image/TitleImageBasic.gif">
+        <div class="belowMainContentImage">
+
+        <h1>Famous Hufflepuffs</h1>
+
+<!-- Because this class was on CSS and HTML, I'm simply commenting out the orginal code instead of deleting it after I altered it to javaScript -->
+
+        <div id="newt" class="profile">
+        <!-- <h2>Newt Scamander</h2>
+        <p>Author of the book "Fantiastic Beasts and Where to Find Them".</p>
+        <img src="image/newt001.jpg" alt="Newt Scamander looking worried on a street in the US in the 1930s."></img> -->
+        </div>
+
+        <div id="cedric" class="profile">
+        <!-- <h2>Cedric Diggory</h2>
+        <p>One of the two Hogwarts champions in the Tri-Wizard tournament, and seeker of the Hufflepuff quiddich team.</p>
+        <img src="image/cedric001.jpg" alt="Cedric Diggory in the hallway at Hogwarts wearing a yellow scarf."></img> -->
+        </div>
+
+        <div id="helga" class="profile">
+        <!-- <h2>Helga Hufflepuff</h2>
+        <p>The founder of Hufflepuff house. Good friends with Rowena Ravenclaw </p>
+        <img float=left; src="image/helga001.png" alt="A sepeia tone picture of Helga Hufflepuff looking either amused or annoyed. She's holding a small cup rougly the size of her hand that resembles a trophy"> -->
+        </div>
+
+
+
+
+
+
+          </div>   <!-- end belowMainContentImage onloadedmetadata=" -->
+        </div> <!-- end mainContent -->
+        <div class="dummyBox">
+        </div>
+
+  <footer>This webpage was designed by Anna Carlson for the class Introduction to Web Design(Fall 2018) taught by Jason Bedsaul. </footer>
+
+<!-- I Spent way too long figuring out how to use JavaScript to do this -->
+  <script >
+//declare variables
+  var newtSca = new HuffProfile("Newt Scamander", "Author of the book 'Fantiastic Beasts and Where to Find Them'", "image/newt001.jpg", "Newt Scamander looking worried on a street in the US in the 1930s.");
+  var cedric = new HuffProfile("Cedric Diggory","One of the two Hogwarts champions in the Tri-Wizard tournament, and seeker of the Hufflepuff quiddich team.","image/cedric001.jpg","Cedric Diggory in the hallway at Hogwarts wearing a yellow scarf.");
+  var helga = new HuffProfile("Helga Hufflepuff","The founder of Hufflepuff house. Good friends with Rowena Ravenclaw","image/helga001.png","A sepeia tone picture of Helga Hufflepuff looking either amused or annoyed. She's holding a small cup rougly the size of her hand that resembles a trophy");
+
+//make constructor
+  function HuffProfile(name,info,photo,altText){
+    this.name=name;
+    this.info=info;
+    this.photo=photo;
+    this.altText=altText;
+    }
+
+//make new profile based on data
+function makeNewProfile(HuffProfile){
+  return "<h2>"+HuffProfile.name+"</h2><p>"+HuffProfile.info+"</p><br><img src='"+HuffProfile.photo+"' alt='"+HuffProfile.alt+"'/>";
+
+}
+
+//update IDs to new info;
+    document.getElementById("newt").innerHTML = makeNewProfile(newtSca);
+    document.getElementById("cedric").innerHTML = makeNewProfile(cedric);
+    document.getElementById("helga").innerHTML = makeNewProfile(helga);
+
+  </script>
+
+
+
+
+  </body>
+</html>

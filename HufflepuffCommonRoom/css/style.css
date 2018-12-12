@@ -1,15 +1,4 @@
-/* @font-face {
-  font-family: "Pacifico";
-  src: url('https://fonts.googleapis.com/css?family=Pacifico');
-} */
 
-/* @font-face {
-font-family: "Battalia";
-src: url('../font/BATTALIA.ttf');
-} */
-
-
-/* @import url('../font/BATTALIA.tff'); */
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
@@ -17,17 +6,10 @@ src: url('../font/BATTALIA.ttf');
 
 body{
   font-family: 'Noto Serif', serif;
-  /* background:rgb(225, 225, 70); */
-
-
   background-image: url(../image/BadgerBorder001.gif), linear-gradient(rgb(225, 225, 70),red);
   background-repeat: repeat-y,no-repeat;
   background-position: right;
   background-size: 10% ,auto;
-  /* background-image: linear-gradient(rgb(225, 225, 70),red); */
-
-  /* background:
-  red  url(../image/BadgerBorder001.gif repeat-y);  */
 
 }
 
@@ -59,7 +41,15 @@ blockquote{
   background: rgb(234, 154, 42);
   padding:10px;
   filter: sepia(.3) opacity(.8);
-  
+
+}
+
+footer{
+  background: rgb(244, 240, 205);
+  text-align: center;
+  padding: 5px;
+  margin: auto;
+  border: outset black 2px;
 
 
 }
@@ -131,7 +121,7 @@ a.sideButton:active{
   float: left;
   background: brown;
   border-radius: 1em;
-  height: 25em;
+  height: 27em;
   font-family: "Pacifico",serif;
   /* padding: 20px; */
 }
@@ -175,10 +165,14 @@ a.sideButton:active{
   margin-right: 20px;
   /* margin-right: 16em; */
 
-
-
-
 }
+
+/* .belowMainContentImage img{
+max-width: width: 500px;
+
+} */
+
+
 
 #quickNav{
 /* A right hand size menu for quick movement through longer pagers */
@@ -279,7 +273,7 @@ a.quickNavButton{
 
 /* Used to lengthen contents of page so the background does not cut off  */
 .dummyBox{
-  height: 600px;
+  height: 100px;
 
 
 }
@@ -293,6 +287,31 @@ a.quickNavButton{
   border-radius: 25px;
   margin-left: auto;
   margin-right: auto;
+
+
+}
+
+
+/* For use in attempted Java Game */
+#room{
+  position: absolute;
+  background-image: url("../image/roomWall.gif");
+  border: 10px;
+  width: 400px;
+  height: 400px;
+  
+
+}
+
+.roomPart{
+
+  position: absolute;
+  width: 400px;
+  height: 400px;
+
+}
+
+#floor hover{
 
 
 }
