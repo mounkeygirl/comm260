@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+*{
+  margin: 5px;
+
+}
+
+body{
+  background-color: lightblue;
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+}
+
+nav{
+
+  display: flex;
+
+  border-bottom: 3px solid black;
+}
+
+nav a {
+  background-color: pink;
+  color:black;
+  text-decoration: none;
+  border: 1px solid red;
+
+  margin:0 5px;
+  padding: 5px 15px;
+  border-radius: 3px 3px 0 0;
+
+}
+
+nav a:hover, a:focus, a:active{
+  background-color: red;
+  color:white;
+}
+
+header{
+
+  font-family: 'Lora', serif;
+  font-size: calc(60% + 2em);
+  text-align: center;
+}
+header::first-letter{
+
+  font-size: calc(101% + 1em);
+  font-family: 'Lobster', cursive;
+}
+
+
+.whatToEat{
+  background-color: rgb(215, 224, 179);
+  width: 30em;
+  padding: 1em;
+  margin: .5em;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+
+
+}
+
+.whatToEat:hover{
+  background-color: beige;
+}
+
+.whatToEat ul{
+  list-style: georgian;
+}
+
+
+.outerStripeBox{
+  background-color: green;
+  background-image: repeating-linear-gradient(
+    45deg,
+    purple 0px,
+    gold 50px
+    );
+
+  /* border: red solid 2px; */
+  padding: .25em;
+  width: 33em;
+
+
+}
+
+
+#breakfastMenu{
+  border: orange solid 1px;
+
+}
+
+
+
+#lunchMenu{
+  border: green solid 1px;
+
+}
+
+#dinnerMenu{
+  border: purple solid 1px;
+
+}
+
+#menus .outerStripeBox{
+   display: flex;
+  flex-direction: column;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 1em;
+
+
+}
+
+#menus .outerStripeBox:first-child{
+
+  background-image: repeating-linear-gradient(
+    45deg,
+    red 0px,
+    green 50px
+    );
+
+}
+
+#menus .outerStripeBox:last-child{
+
+  background-image: repeating-linear-gradient(
+    -45deg,
+    purple 0px,
+    green 50px
+    );
+
+}
+
+
+
+
+.missionStatement{
+  font-size: 1.25em;
+  align-items: center;
+  text-align: center;
+  background-color: beige;
+  margin: 1em;
+  padding: .5em;
+  border:brown solid 1px;
+
+
+
+}
+
+.foodPictures{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+
+  /* align-items: center; */
+
+}
+
+.foodPictures *{
+  border: 4px solid beige;
+
+
+}
