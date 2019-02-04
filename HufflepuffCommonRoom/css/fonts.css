@@ -7,3 +7,11 @@ src: url(../font/BATTALIA.tff);
   font-family: Pacifico;
   src: url(https://fonts.googleapis.com/css?family=Pacifico);
 }
+
+@font-face {
+  font-family: Parsl;
+  src: url(../font/PARSELTO.TFF)format("tff");
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');

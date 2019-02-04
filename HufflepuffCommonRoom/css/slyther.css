@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+
+body{
+  font-family: 'Noto Serif', serif;
+  background-image: url(../image/BadgerBorder001.gif), linear-gradient(green,blue);
+  background-repeat: repeat-y,no-repeat;
+  background-position: right;
+  background-size: 10% ,auto;
+
+}
+
+.sideBar{
+  /* text-align: center; */
+  font-size:1.5em;
+  color: rgb(225, 225, 70);
+  width : 10em;
+  float: left;
+  background: rgb(24, 142, 73);
+  border-radius: 1em;
+  border: 2px solid black;
+  height: 27em;
+  font-family: 'Oswald', sans-serif;
+  /* padding: 20px; */
+}
+
+.sideButton{
+  border: 5px double rgb(72, 81, 76);
+  background: black;
+}
+
+a.sideButton{
+  text-decoration: none;
+  text-align: center;
+  font-size:1.0em;
+  width : 8em;
+  border-radius: 1em;
+}
+
+a.sideButton:link{
+  color: Black;
+  background: rgb(188, 221, 203);
+
+}
+
+a.sideButton:visited{
+  color:black;
+  background:rgb(130, 216, 169);
+}
+
+
+
+.belowMainContentImage{
+
+  background-color: rgb(190, 224, 204);
+}
