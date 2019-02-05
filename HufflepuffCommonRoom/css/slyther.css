@@ -24,6 +24,10 @@ body{
   font-family: 'Oswald', sans-serif;
   /* padding: 20px; */
 }
+.dropdown-content{
+  background-color: rgb(24, 142, 73);
+
+}
 
 .sideButton{
   border: 5px double rgb(72, 81, 76);
@@ -48,6 +52,7 @@ a.sideButton:visited{
   color:black;
   background:rgb(130, 216, 169);
 }
+
 
 
 

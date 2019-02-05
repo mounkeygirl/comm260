@@ -114,16 +114,14 @@ a.sideButton:active{
 
 
 .sideBar{
-  /* text-align: center; */
   font-size:1.5em;
   color: rgb(225, 225, 70);
   width : 10em;
   float: left;
   background: brown;
   border-radius: 1em;
-  height: 27em;
+  height: 30em;
   font-family: "Pacifico",serif;
-  /* padding: 20px; */
 }
 
 
@@ -299,7 +297,7 @@ a.quickNavButton{
   border: 10px;
   width: 400px;
   height: 400px;
-  
+
 
 }
 
@@ -311,7 +309,86 @@ a.quickNavButton{
 
 }
 
-#floor hover{
+
+/* Referenceing code from w3schools.com for a drop down menu
+https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
+*/
 
 
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+#houseSelectHeading{
+
+  border: 5px double gold;
+  background-image: url(../image/BadgerBorder001.gif), linear-gradient(silver,gold);
+  background-repeat: repeat-y,no-repeat;
+  background-position: right;
+  background-size: 10% ,auto;
+
+  color: black;
+
+
+  /* border: 5px double yellow; */
+  padding: 5px;
+  margin: 10px;
+
+  text-decoration: none;
+  text-align: center;
+  font-size:1.0em;
+  width : 8em;
+  float: left;
+  border-radius: 1em;
+
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left:10em;
+  background-color: brown;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
