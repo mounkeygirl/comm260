@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 @import url('https://fonts.googleapis.com/css?family=Acme');
 
+
 body{
   font-family: 'Noto Serif', serif;
   background-image: url(../image/BadgerBorder001.gif), linear-gradient(rgb(225, 225, 70),red);
