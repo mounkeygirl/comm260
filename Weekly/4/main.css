@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+html{
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+table{
+  border-collapse: collapse;
+
+}
+
+table, td, th{
+  border: 1px solid black;
+  padding: .3em;
+
+}
+
+table td,th{
+  vertical-align: top;
+}
+
+table th{
+  background-color: rgb(78, 96, 124);
+  color: white;
+  padding:1em;
+
+}
+
+table tr:hover{
+  background-color: rgb(201, 206, 214);
+}
