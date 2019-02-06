@@ -14,9 +14,7 @@ background-size: cover;
 body{
   font-family: 'Noto Serif', serif;
   background-image: none;
-  background-repeat: repeat-y,no-repeat;
-  background-position: right;
-  background-size: 10% ,auto;
+
 
 }
 
