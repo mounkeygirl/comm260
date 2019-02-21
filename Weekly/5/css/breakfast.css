@@ -1,0 +1,24 @@
+
+html {
+  background: url(../assets/breakfast-lg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  background-color: transparent;
+
+}
+
+h1,h2 {
+  text-shadow: 2px 2px #ff0000;
+
+
+}
+
+.whatToEat h2{
+  text-shadow: inherit;
+
+}
