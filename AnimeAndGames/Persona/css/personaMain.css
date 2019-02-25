@@ -1,0 +1,36 @@
+
+
+body{
+  background:rgb(169, 182, 204);
+}
+
+
+#topRow{
+  background-color: blue;
+
+
+}
+
+#topRow a{
+  color: white;
+  text-shadow: 1px;
+
+}
+
+#topRow nav ul{
+  background-color: rgb(45, 99, 191);
+
+}
+
+#topRow nav ul li:hover{
+  background-color: rgb(53, 85, 140);
+
+
+}
+
+
+#secondRow{
+  background-color: rgb(207, 222, 247);
+
+
+}
