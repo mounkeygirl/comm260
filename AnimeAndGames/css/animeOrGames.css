@@ -1,0 +1,52 @@
+header{
+  border-top: 10px solid #c8a600;
+  text-align: center;
+  background: #ffd740;
+}
+
+body{
+  background: #ffff74;
+
+}
+
+.animeOrGames{
+  display: flex;
+  flex: row;
+  border: 1px solid black;
+  margin:20px;
+  background-color: #ff8a65;
+
+}
+
+.listOThings{
+width:50%;
+display: flex;
+flex-direction: column;
+border: 1px solid orange;
+background-color: #ffbb93;
+
+
+}
+
+.listOThings h2{
+
+  padding-left: 10%;
+
+}
+
+/* Modifying Link */
+a{
+  padding:10px;
+  text-decoration: none;
+  color: black;
+  background-color: #ff8a65;
+}
+
+a:hover{
+  background-color: #c75b39;
+}
+
+a:active{
+  background-color: #ffbc93;
+
+}
